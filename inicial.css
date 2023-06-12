@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color-white: #fff;
+    --color-header: rgb(253, 162, 230);
+    --color-links: rgb(236, 26, 152);
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg, rgb(250, 106, 190) , rgb(255, 168, 233));
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(253, 191, 235);
+    height: 5em;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+main{
+    background-image: linear-gradient(45deg, rgb(250, 106, 190) , rgb(255, 168, 233));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 8px;
+}
+
+#navagation_header{
+    color: rgb(214, 61, 112);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.musica{
+    width: 20vw;
+    height: 70vh;
+    border-radius: 15px;
+    filter: drop-shadow(1vh 1vh 1vh black);
+    
+}
+.playlist{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.musica:hover{
+    transform: scale(1.05)
+}
+
+#frase{
+    padding: 0% 10px;
+    display: flex;
+    align-items: center;
+}
